@@ -2,7 +2,7 @@
 Projects for the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday).  
 
 ----
-## May 25, 2020: [Cocktails](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-05-25/readme.md)
+## May 25, 2020: [Cocktails](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-05-26/readme.md)
 ![map](images/2020-05-25/absinthe.png)
 
 
