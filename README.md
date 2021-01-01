@@ -2,6 +2,12 @@
 Projects for the [#TidyTuesday challenge](https://github.com/rfordatascience/tidytuesday).  
 
 ----
+
+## December 22, 2020: [Big Mac Index](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-12-22)
+Data visualization inspired by [AndyABaker](https://github.com/AndyABaker/TidyTuesday/blob/main/2020_week52_bigmac.R) and [botan](https://github.com/botan/tidytuesday/blob/main/R/2020-w52-bigmac.Rmd)
+
+<img height = "600" src="images/2020-12-22_bigmac/turkey.tiff">
+
 ## May 25, 2020: [Cocktails](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-05-26/readme.md)
 ![map](images/2020-05-25/absinthe.png)
 
