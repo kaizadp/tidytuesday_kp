@@ -77,7 +77,7 @@ big_mac_processed %>%
        This graph shows how the Turkish Lira has compared to the US Dollar.",
        
        caption = "github.com/kaizadp | Source: The Economist
-       31-December-2020",
+       31 December, 2020",
        y = "GDP adjusted index, relative to the US dollar") + 
   
   theme_void() +
