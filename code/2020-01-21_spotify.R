@@ -89,6 +89,7 @@ spotify_songs_subset_long %>%
   NULL
 
 ggsave("images/2020-01-21_spotify/spotify_tt.tiff", height = 8, width = 8)
+ggsave("images/2020-01-21_spotify/spotify_tt.png", height = 8, width = 8)
 
 #
 # PART 2: SPOTIFY TOP 2020 (SELF) -------------------------------------------------------------------------
@@ -191,3 +192,4 @@ top2020_subset_long %>%
   NULL
 
 ggsave("images/2020-01-21_spotify/spotify_2020.tiff", height = 3.5, width = 3.5)
+ggsave("images/2020-01-21_spotify/spotify_2020.png", height = 3.5, width = 3.5)
