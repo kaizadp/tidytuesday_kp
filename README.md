@@ -28,3 +28,9 @@ Data visualization inspired by [AndyABaker](https://github.com/AndyABaker/TidyTu
 ![highest](images/2020-04-28_broadway/highest-screenshot.png)
 ![prices](images/2020-04-28_broadway/prices-screenshot.png)
 
+## January 21, 2020: [Spotify](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21)
+Inspired by [jakelawlor](https://github.com/jakelawlor/TidyTuesday_JL/blob/master/CodeFiles/Jan21.20.Spotify.Rmd)
+
+<img height = "600" width = "600" src="images/2020-01-21_spotify/spotify_tt.tiff">
+<img height = "400" width = "400" src="images/2020-01-21_spotify/spotify_2020.tiff">
+
