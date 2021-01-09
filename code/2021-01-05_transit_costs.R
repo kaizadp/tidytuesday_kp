@@ -37,7 +37,7 @@ transit_cost_longest %>%
   ggplot(aes(x = reorder(line2, -length), y = length, color = country))+
   geom_segment(aes(xend = reorder(line2, -length), yend = 0), size = 10, alpha = 0.3, lineend = "round")+
   geom_text(aes(label = line2), 
-            hjust = 1, angle = 90, size = 3, position = position_nudge(y = -5), color = "grey20")+
+            hjust = 1, angle = 90, size = 2.5, color = "grey20")+
   geom_text(aes(label = length), position = position_nudge(y = 15), fontface = "bold")+
   annotate("text", label = "km", x = 1, y = 210, size = 3, color = "grey50", fontface = "italic")+
   scale_color_viridis_d()+
@@ -55,7 +55,7 @@ transit_cost_longest %>%
     plot.caption = element_text(hjust = 0.5, color = "grey40", size = 8),
     legend.position = "none")
 
-ggsave("images/2021-01-05_transit_costs/transit_longest.png", width = 5.5, height = 5.5)  
+ggsave("images/2021-01-05_transit_costs/transit_longest.png", width = 7, height = 4.5)  
 
 #
 # top 10 longest -- circular plot ------------------------------------------------------------------
