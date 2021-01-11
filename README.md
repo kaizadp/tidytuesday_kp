@@ -3,6 +3,12 @@ Projects for the [#TidyTuesday challenge](https://github.com/rfordatascience/tid
 
 ----
 
+## January 05, 2021: [Transit Costs Project](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-01-05)
+![top10](images/2021-01-05_transit_costs/transit_longest.png)
+
+
+![top10](images/2021-01-05_transit_costs/transit_longest_radial.png)
+
 ## December 22, 2020: [Big Mac Index](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-12-22)
 Data visualization inspired by [AndyABaker](https://github.com/AndyABaker/TidyTuesday/blob/main/2020_week52_bigmac.R), [botan](https://github.com/botan/tidytuesday/blob/main/R/2020-w52-bigmac.Rmd), [kaustavSen](https://github.com/kaustavSen/tidytuesday/blob/master/2020/week_52_big_mac.Rmd)
 
