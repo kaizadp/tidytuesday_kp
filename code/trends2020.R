@@ -82,7 +82,7 @@ trends_long2 %>%
   scale_x_date(labels = scales::date_format("%b"), breaks = "3 months")+
   theme(legend.position = "none",
         panel.spacing.y = unit(-0.8, "lines"),
-        axis.text.x = element_text(color = "grey30", size = 8),
+        axis.text.x = element_text(color = "grey30", size = 8, family = "Andika"),
         plot.title = element_text(hjust = 0.5, color = "grey20", size = 14, 
                                   family = "Playfair", face = "bold"),
         plot.caption = element_text(hjust = 0.5, color = "grey50", size = 8, 
