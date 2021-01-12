@@ -15,6 +15,8 @@ library(gtrendsR)
 library(tidyverse)
 library(ggridges)
 library(showtext)
+library(ggalt)
+
 
 # -------------------------------------------------------------------------
 
@@ -68,10 +70,8 @@ showtext_auto()
 trends_long2 %>% 
   #  filter(name == "WAP") %>% 
   ggplot(aes(x = Week, y = value))+
-  #  geom_line()+
-  geom_area(aes(group = name2, fill = name2), color = "grey40", alpha = 0.5)+
-  #  geom_ribbon(aes(ymin = 0, ymax = value_avg, fill = name2), color = "black", alpha = 0.4)+
-  #  geom_density_ridges()+
+  #xspline gives curved corners for geom_area
+  geom_area(aes(group = name2, fill = name2), color = "grey40", alpha = 0.5, stat = "xspline")+
   scale_fill_manual(values = rev(PNWColors::pnw_palette("Sunset2", 33)))+
   labs(title = "2020 Search Trends",
        caption = "
